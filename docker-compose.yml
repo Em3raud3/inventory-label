@@ -1,0 +1,10 @@
+services:
+  inventorylabel:
+    image: registry.dsra.io/dmc/inventory-label
+    volumes:
+      - ./QrSheets:/app/QrSheets
+      - ./database:/app/database
+
+    build:
+      context: .
+      dockerfile: ./Dockerfile

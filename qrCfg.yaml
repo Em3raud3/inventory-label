@@ -1,0 +1,10 @@
+qrDir: "./duoQr"
+usedqrDir: "./usedDuoQr"
+stickersPerPage: 32
+numDigits: 6
+db: "./database/dmcProductList.db"
+stickertemplate: "Avery6576DurableIDLabels.docx"
+outputfiles:
+  - duoQrA1.docx
+  - duoQrA2.docx
+  - duoQrA3.docx
